@@ -1,0 +1,133 @@
+
+
+/* Input Comment Here */
+header {
+    background-color: #f4f8f8; 
+    border-bottom: 7.5px solid #fdc3d1;
+    padding-bottom: 8px;
+}
+
+/* The logo and title for the logo*/
+.logoAll {
+    background-color: #FFDBDB;
+   display: flex; 
+   align-items: center;
+   gap: 10px;
+}
+
+/* Cute Picture! */
+.logo {
+    width: 100px;
+    border-radius: 100px;
+}
+
+/* BG hexcode: f4f8f8, text hexcode: fdc3d1, Stroke: fda8bf */
+.logo-Title {
+    background-color: #FFDBDB;
+    color: #fdc3d1;
+
+    font-family: cursive;
+    -webkit-text-stroke-width: 2.1px;
+    -webkit-text-stroke-color:#fda8bf;
+    
+}
+
+body {
+    margin: 0;
+    min-height: 125dvh;
+    display: flex;
+    flex-direction: column;
+    scrollbar-color: #fdc3d1;
+}
+
+main {
+    background-color: #FFDBDB;
+    padding: clamp(15px, 3vh, 40px) 0px;
+    flex-grow: 1;
+}
+
+.mainContent {
+    color: #fdc3d1;
+
+    font-family: cursive;
+    -webkit-text-stroke-width: 2.1px;
+    -webkit-text-stroke-color:#fda8bf
+}
+
+#timerAccess {
+    background-color:#FFDBDB;
+    border-radius: 18px;
+    padding: 0px;
+    border: transparent;
+}
+
+.timer {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.timer img {
+    display: block;
+    width: 500px;
+    height: 175px;
+    border-radius: 35px;
+}
+
+.timer h1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.currentTimer {
+    position: relative;
+    display: inline-block;
+}
+
+.currentTimer img {
+    display: block;
+    width: 500px;
+    height: 175px;
+    border-radius: 35px;
+}
+
+.currentTimer h1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #f4f8f8;
+    border-top: 7.5px solid #fdc3d1;
+    padding-top: 8px;
+}
+
+.footerAll {
+    align-items: center;
+    margin: 0;
+}
+
+.footerText {
+    color: #fdc3d1;
+    font-size: clamp(1rem, 2.5vw + 0.5rem, 2.2rem); 
+    font-family: cursive;
+    -webkit-text-stroke-width: 1.05px;
+    -webkit-text-stroke-color:#fda8bf;
+}
+
+.footerButtons {
+    width: clamp(60px, 8vw, 120px); 
+    border-radius: 100px;
+}
+
+footer p {
+    color: #fdc3d1;
+    font-size: clamp(1rem, 2.5vw + 0.5rem, 2.2rem); 
+    font-family: cursive;
+    -webkit-text-stroke-width: 1.05px;
+    -webkit-text-stroke-color:#fda8bf;
+}
